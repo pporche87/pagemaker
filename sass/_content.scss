@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  &__phone {
+    width: auto;
+    height: 75%;
+    z-index: 1;
+  }
+}
+
+#lottie {
+  position: absolute;
+}
+
+.description {
+  font-size: 2rem;
+  color: #353535;
+  text-align: center;
+  width: 50rem;
+  margin: 0 auto;
+}

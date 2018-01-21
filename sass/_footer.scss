@@ -1,0 +1,21 @@
+footer.footer {
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 8rem 2rem 10rem;
+  font-size: 2rem;
+}
+
+footer.footer ul {
+  list-style: none;
+  line-height: 6rem;
+}
+
+.footer-logo {
+  
+  &__text span {
+    color: #9b9b9b;
+  }
+}
+
